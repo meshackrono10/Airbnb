@@ -1,0 +1,80 @@
+.searchresult {
+  display: flex;
+  position: relative;
+  margin: 20px;
+  padding: 20px;
+  border-bottom: 1px solid lightgray;
+  cursor: pointer;
+}
+.searchresultt:hover {
+  opacity: 0.8;
+}
+@media only screen and (max-width: 600px) {
+  .searchresult {
+    display: block;
+  }
+}
+.searchresult_img {
+  height: 200px;
+  width: 350px;
+  border-radius: 10px;
+  overflow: hidden;
+  margin: 10px;
+}
+.searchResult_info {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding-left: 20px;
+}
+.searchResult_heart {
+  position: absolute;
+  top: 20px;
+  right: 40px;
+}
+
+.searchResult_info p {
+  margin-bottom: 10px;
+  font-size: 14px;
+}
+.searchResult_info h1 {
+  margin-bottom: 30px;
+}
+.searchResult_info button {
+  border-radius: 20px;
+  text-transform: inherit;
+  margin: 5px;
+}
+.searchResult_infoTop {
+  width: 40vw;
+}
+.searchResult_infoTopheadin3 {
+  font-weight: 300;
+  margin-top: 10px;
+}
+.searchResult_infoTopPara {
+  margin-top: 10px;
+  font-size: 13px;
+  color: gray;
+}
+.searchResult_infoBottom {
+  display: flex;
+  justify-content: space-between;
+}
+.searchResult_star {
+  color: red;
+}
+.searchResult_star {
+  display: flex;
+  align-items: center;
+}
+
+.searchResult_price p {
+  text-align: center;
+}
+.searchResult_price {
+  display: flex;
+  position: absolute;
+  bottom: 20px;
+  right: 30px;
+}
